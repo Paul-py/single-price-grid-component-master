@@ -116,3 +116,16 @@ section{
     font-size: 1.3rem;
 
 }
+
+@media only screen and (min-width: 768px) {
+    #container{
+        grid-template-columns: 50% 50%;
+    }
+    .item-1{
+        grid-area: 1/ 1/ 2/ 3;
+    }
+
+    .item-2,.item-3{
+        grid-row: 2;
+    }
+}
